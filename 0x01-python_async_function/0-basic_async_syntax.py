@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""asynchchronous coroutine task 1"""
+"""
+asynchronous coroutine task 1 that awaits
+for a random delay between 0 and default max_delay
+"""
+
+
 import random
 import asyncio
 
