@@ -9,7 +9,7 @@ import random
 import asyncio
 
 
-async def wait_random(max_delay=10.0) -> float:
+async def wait_random(max_delay: int = 10.0) -> float:
     """
     An async co-routine that awaits for random delay btwn 0 and max_delay
     """
