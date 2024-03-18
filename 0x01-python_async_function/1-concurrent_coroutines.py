@@ -2,12 +2,14 @@
 """
 Imports wait_random from previous task
 """
+
+
 import asyncio
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> float:
-    """spawn wait_random n times"""
+    """spawn wait_random n times with specified max delay"""
     delays = []
     lst = []
 
