@@ -13,6 +13,9 @@ async def wait_random(max_delay=10.0):
 
 
 async def main():
+    """
+    Awaits for random time between 0 and default wait time
+    """
     delay = await wait_random(5.0)
     print(f"waited for {delay:.2f} seconds")
 
