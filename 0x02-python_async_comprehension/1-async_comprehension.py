@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """ Async comprenhesion gen """
-import asyncio
 from typing import List
 
 
