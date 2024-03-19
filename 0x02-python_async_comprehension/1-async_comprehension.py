@@ -11,4 +11,4 @@ async def async_comprehension() -> List[float]:
     """
     Generate numbers with async comprenhension
     """
-    return ([i async for i in async_generator()])
+    return [i async for i in async_generator()]
